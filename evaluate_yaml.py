@@ -8,8 +8,8 @@ import pandas as pd
 from multiple_choice import get_model_answer_multiple_options
 from multiple_choice import compare_answers
 
-from rag import get_answer_from_local_ollama_context
-from rag import get_evaluation_score_context
+from context_qa import get_answer_from_local_ollama_context
+from context_qa import get_evaluation_score_context
 
 from qa_quality import get_answer_from_local_ollama
 from qa_quality import get_evaluation_score, calculate_rouge_score, calculate_bleu_score, calculate_levenshtein_score
